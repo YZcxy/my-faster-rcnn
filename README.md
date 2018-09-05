@@ -13,12 +13,12 @@
 
 1- 各种环境配置，自行捣鼓，python建议使用3.5
 
-2- 在这个路径下取下载VOCDevkit2007训练集 [Link]( https://github.com/rbgirshick/py-faster-rcnn#beyond-the-demo-installation-for-training-and-testing-models)  
+2- 在这个路径下去下载VOCDevkit2007训练数据集 [Link]( https://github.com/rbgirshick/py-faster-rcnn#beyond-the-demo-installation-for-training-and-testing-models)  
 然后放在这两个目录   
-`data/VOCDevkit2007/annotations_cache`
+`data/VOCDevkit2007/annotations_cache`  
 `data/VOCDevkit2007/VOC2007`
 
-3- 下载VGG16已训练好的参数[here](http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz)   
+3- 因为这份代码直接采用end_to_end训练模式，所以需要去下载VGG16已训练好的参数 [here](http://download.tensorflow.org/models/vgg_16_2016_08_28.tar.gz)   
 然后放在这个目录 `data\imagenet_weights\vgg16.ckpt`
 
 
